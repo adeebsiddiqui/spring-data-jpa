@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController
+@RestController("/spring-data-jpa")
 public class SpringDataAppController {
 
     @Autowired
