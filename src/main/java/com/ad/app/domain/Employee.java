@@ -1,5 +1,6 @@
 package com.ad.app.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -11,34 +12,30 @@ import java.util.Date;
 @Entity
 public class Employee {
 
-    @Column(name = "Fname")
+    @Column(name = "fname")
     private String firstName;
 
-    @Column(name = "Minit")
+    @Column(name = "minit")
     private String middleInitial;
 
-    @Column(name = "Lname")
+    @Column(name = "lname")
     private String lastName;
 
-    @Column(name = "Ssn")
     @Id
     private String ssn;
 
-    @Column(name = "Bdate")
+    @Column(name = "bdate")
     private Date birthDate;
 
-    @Column(name = "Address")
     private String address;
 
-    @Column(name = "Sex")
     private String sex;
 
-    @Column(name = "Salary")
     private double salary;
 
-    @Column(name = "Super_ssn")
-    private String superSsn;
+    @Column(name = "super_ssn")
+    @JsonProperty("super-ssn") private String superSsn;
 
-    @Column(name = "Dno")
-    private int departmentNumber;
+    @Column(name = "dno")
+    @JsonProperty("department-number") private int departmentNumber;
 }
