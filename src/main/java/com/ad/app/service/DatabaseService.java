@@ -19,4 +19,14 @@ public class DatabaseService {
         employeeRepository.findAll().forEach(employeeList::add);
         return employeeList;
     }
+
+
+    public Employee getEmployeeById(String id) {
+        return employeeRepository.findById(id).orElse(null);
+    }
+
+
+    public Employee getEmployeeByLastName(String lastName) {
+        return employeeRepository.findByLastName(lastName);
+    }
 }
