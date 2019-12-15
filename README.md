@@ -6,4 +6,7 @@ Read basics of working with SQL Databases in Spring [here](https://docs.spring.i
 Make sure to read [Getting Started](https://github.com/echosiddiqui/spring-data-jpa/blob/master/HELP.md) to learn more.
 
 ## DataSource configuration
-DataSource used for this Spring Boot application is MySQL database. DataSource configuration can be found in `application.yml`.
+DataSource used for this Spring Boot application is MySQL database.
+DataSource can be configured **either** of the following 2 ways:
+1. Application properties in `application.yml`
+2. Programmatically through JavaConfig class
