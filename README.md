@@ -11,3 +11,5 @@ DataSource used for this Spring Boot application is MySQL database.
 DataSource can be configured **either** of the following 2 ways:
 1. Application properties in `application.yml`
 2. Programmatically through JavaConfig class
+
+`Tip:` Both can be combined to configure multiple datasources.
