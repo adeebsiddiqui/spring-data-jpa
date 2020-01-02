@@ -1,4 +1,4 @@
-package com.ad.app.domain;
+package com.ad.app.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -6,10 +6,12 @@ import lombok.Data;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Data
 @Entity
+@Table(name = "employee")
 public class Employee {
 
     @Column(name = "fname")

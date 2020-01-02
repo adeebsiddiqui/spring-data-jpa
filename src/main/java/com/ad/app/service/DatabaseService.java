@@ -1,7 +1,7 @@
 package com.ad.app.service;
 
-import com.ad.app.dao.EmployeeRepository;
-import com.ad.app.domain.Employee;
+import com.ad.app.repository.EmployeeRepository;
+import com.ad.app.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.ad.app.dao;
+package com.ad.app.repository;
 
-import com.ad.app.domain.Employee;
+import com.ad.app.model.Employee;
 import org.springframework.data.repository.CrudRepository;
 
 public interface EmployeeRepository extends CrudRepository<Employee, String> {
