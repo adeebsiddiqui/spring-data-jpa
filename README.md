@@ -1,7 +1,7 @@
 # spring-data-jpa
 This project conatains the basics of Spring Data JPA.
 
-Read basics of working with SQL Databases in Spring [here](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-sql).
+Read basics of working with SQL Databases in Spring [here](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-sql).
 
 Learn query creation keywords for JPA [here](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation).
 
@@ -15,3 +15,5 @@ DataSource can be configured **either** of the following 2 ways:
 2. Programmatically through JavaConfig class
 
 `Tip:` Both can be combined to configure multiple datasources.
+
+Learn more about DataSource configuration in Spring Boot [here](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-data-access).
