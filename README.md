@@ -15,5 +15,3 @@ DataSource can be configured **either** of the following 2 ways:
 2. Programmatically through JavaConfig class
 
 `Tip:` Both can be combined to configure multiple datasources.
-
-Learn more about DataSource configuration in Spring Boot [here](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-data-access).
