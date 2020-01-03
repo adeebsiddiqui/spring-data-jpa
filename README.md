@@ -1,7 +1,7 @@
 # spring-data-jpa
 This project conatains the basics of Spring Data JPA.
 
-Read basics of working with SQL Databases in Spring [here](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-sql).
+Read basics of working with SQL Databases in Spring [here](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-sql).
 
 Learn query creation keywords for JPA [here](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation).
 
