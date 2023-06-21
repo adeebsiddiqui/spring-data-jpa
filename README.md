@@ -1,11 +1,9 @@
 # spring-data-jpa
 This project conatains the basics of Spring Data JPA.
 
-Read basics of working with SQL Databases in Spring [here](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-sql).
+Learn about [query creation keywords for JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation).
 
-Learn query creation keywords for JPA [here](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation).
-
-Make sure to read [Getting Started](https://github.com/echosiddiqui/spring-data-jpa/blob/master/HELP.md) to learn more.
+Learn about [Jdbc URL Format for Different Databases](https://www.baeldung.com/java-jdbc-url-format).
 
 ## DataSource configuration
 DataSource used for this Spring Boot application is MySQL database.
@@ -15,3 +13,5 @@ DataSource can be configured **either** of the following 2 ways:
 2. Programmatically through JavaConfig class
 
 `Tip:` Both can be combined to configure multiple datasources.
+
+Read [Getting Started](https://github.com/echosiddiqui/spring-data-jpa/blob/master/HELP.md) to learn more.
